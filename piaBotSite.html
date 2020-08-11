@@ -8,29 +8,55 @@
         <title>Piá Bot</title>
     </head>
     <body>
-        <div id="page-container">
-            <div id="content-wrap">
-                <img id="botlogoImg" src="assets/media/placeholder.png"></img>
-                <h1 id="botnameH1">PIÁ BOT</h1>
+        <div id="Content-Wrapper">
+            <img id="botlogoImg" src="assets/media/placeholder.png"></img>
+            <h1 id="botnameH1">PIÁ BOT</h1>
 
-                <button id="adcionarBtn">
+            <button id="adcionarBtn">
+                <a href=# target="blank">
                     <p id="adcionarP">Adcionar ao meu servidor</p>
-                </button>
+                </a>
+            </button>
 
-                <p id="comandosP">COMANDOS</p>
-                <a href=#><img id="comandosImg" src="assets/media/arrowDown.png"></a>
+            <p id="comandosP">COMANDOS</p>
+            <a href="#comandosDiv"><img id="comandosImg" src="assets/media/arrowDown.png"></a>
 
-                <div id="votesDiv">
-                    <p id="votesP">- Sitema de votos e awards</p>
-                    <img id="votesImg" src="assets/media/placeholder.png"></img>           
+            <div id="votesDiv">
+                <p id="votesP">- Sitema de votos e awards</p>
+                <img id="votesImg" src="assets/media/placeholder.png"></img>           
+            </div>
+
+            <div id="nicknameDiv">
+                <p id="nicknameP">- Sincronize seu nick com seus jogos favoritos</p>
+                <img id="nicknameImg" src="assets/media/placeholder.png"></img>           
+            </div>
+            <div id="comandosDiv">
+                <div class="Command-Container">
+                    <div class="Command-Wrapper">
+                        <h1 class="comandoH1">.help</h1>
+                        <h1 class="descricaoH1">Para pedir ajuda</h1>
+                    </div>
                 </div>
-
-                <div id="nicknameDiv">
-                    <p id="nicknameP">- Sincronize seu nick com seus jogos favoritos</p>
-                    <img id="nicknameImg" src="assets/media/placeholder.png"></img>           
+                <div class="Command-Container">
+                    <div class="Command-Wrapper">
+                        <h1 class="comandoH1">.carma</h1><h1 class="descricaoH1">Para ver seu carma</h1>
+                    </div>
+                </div>
+                <div class="Command-Container">
+                    <div class="Command-Wrapper">
+                        <h1 class="comandoH1">.sync (NOME DO JOGO) (MODO)</h1><h1 class="descricaoH1">Para sincronizar seu nickname</h1>
+                    </div>
+                    <p class="comandoP">Modo 1 - Sincroniza com o personagem mais jogado</p>
+                    <p class="comandoP">Modo 2 - Sincroniza com o personagem mais recente</p>
+                </div>
+                <div class="Command-Container">
+                    <div class="Command-Wrapper">
+                        <h1 class="comandoH1">.refresh</h1><h1 class="descricaoH1">Para atualizar seu nickname</h1>
+                    </div>
+                    <p class="comandoP">Seu nickname é atualizado automaticamente todos os dias<br>Use esse comando caso queira fazer isso manualmete</p>
                 </div>
             </div>
-            <footer></footer>
+            <img id="commandsImg" src="assets/media/placeholder.png">
         </div>
     </body>
 </html>
